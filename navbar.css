@@ -1,0 +1,49 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  height: 100px;
+  align-items: center;
+  background-color: rgba(96, 96, 96, 0.9);
+  color: white;
+  opacity: .75;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 4em;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-weight: 100;
+}
+
+
+@media only screen and (max-width: 799px) {
+  .logo {
+    justify-self: center;
+  }
+  .nav-links-wrapper {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .logo {
+    margin: 0px;
+  }
+  .links-wrapper {
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  .nav-bar {
+    height: 200px;
+  }
+}
