@@ -1,13 +1,12 @@
 body {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
-  background-image: url(./images/toy-ship.jpg);
+  font-family: 'Amatic SC', cursive;
+  background-image: url(./images/kid.jpg);
   background-repeat: no-repeat;
   position: relative;
   height: 100vh;
   background-position: center;
   background-size: cover;
-  font-weight: bold;
   color: white;
   overflow: hidden;
 }
